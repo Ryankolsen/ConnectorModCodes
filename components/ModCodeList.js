@@ -28,8 +28,7 @@ function ModCodeList({ modCodes }) {
 
     if (!loaded) {
         return (
-            <FlatList
-            
+            <FlatList            
             data={modCodes}
             renderItem={renderItem}
         />
@@ -41,10 +40,8 @@ function ModCodeList({ modCodes }) {
             style={styles.container}
             data={modCodes}
             renderItem={renderItem}
-        />
-   
+        />   
       
-     
       )}
     }
 

@@ -19,7 +19,7 @@ function Header() {
     })
     
     if (!loaded) {
-        return (<Text>Oops</Text>)
+        return (<Text>Please Wait</Text>)
       } else {
         return (
 
