@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
-import { StyleSheet, Text, View, FlatList, ScrollView } from "react-native";
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
 import { useFonts } from "expo-font";
 
 function ModCode(props) {
   const [loaded] = useFonts({
-    Akaya: require("../fonts/AkayaTelivigala.ttf"),
+    PTSansNarrow: require("../fonts/PTSansNarrowRegular.ttf"),
   });
 
   const styles = StyleSheet.create({
@@ -16,12 +16,12 @@ function ModCode(props) {
     textname: {
       fontSize: 25,
       color: "#000000",
-      fontFamily: "Akaya",
+      fontFamily: "PTSansNarrow",
     },
     textDefinition: {
       fontSize: 25,
       color: "#000000",
-      fontFamily: "Akaya",
+      fontFamily: "PTSansNarrow",
     },
   });
 

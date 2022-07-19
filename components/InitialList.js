@@ -165,7 +165,7 @@ const InitialList = [
     id: 22,
     code: "T89",
     definition:
-      "Black hard coat anodized on machined parts, T68 Electrodeposited black epoxy urthand paint on casted",
+      "Black hard coat anodized on machined parts, T68 Electrodeposited black epoxy urethane paint on casted",
     company: "ITT Veam",
     series: "CIR",
   },
@@ -173,7 +173,7 @@ const InitialList = [
     id: 23,
     code: "T96",
     definition:
-      "Black hard coat anodized on machined parts, T68 Electrodeposited black epoxy urthand paint on casted",
+      "Black hard coat anodized on machined parts, T68 Electrodeposited black epoxy urethane paint on casted",
     company: "ITT Veam",
     series: "CIR",
   },
@@ -181,7 +181,7 @@ const InitialList = [
     id: 24,
     code: "T96",
     definition:
-      "Black hard coat anodized on machined parts, T68 Electrodeposited black epoxy urthand paint on casted",
+      "Black hard coat anodized on machined parts, T68 Electrodeposited black epoxy urethane paint on casted",
     company: "ITT Veam",
     series: "CIR",
   },
@@ -196,14 +196,14 @@ const InitialList = [
     id: 26,
     code: "T103",
     definition:
-      "T89 Hard anodized on macined parts, T108 black zinc cobalt on cast parts, T112 heavy golt plated contacts",
+      "T89 Hard anodized on machined parts, T108 black zinc cobalt on cast parts, T112 heavy gold plated contacts",
     company: "ITT Veam",
     series: "CIR",
   },
   {
     id: 28,
     code: "T105",
-    definition: "Green zinc cobalt finish, T112 heavy golt plated contacts",
+    definition: "Green zinc cobalt finish, T112 heavy gold plated contacts",
     company: "ITT Veam",
     series: "CIR",
   },
@@ -211,14 +211,14 @@ const InitialList = [
     id: 29,
     code: "T108",
     definition:
-      "Black zinc/Iron, replaced by: T105 Green zinc cobalt finish, T112 heavy golt plated contacts",
+      "Black zinc/Iron, replaced by: T105 Green zinc cobalt finish, T112 heavy gold plated contacts",
     company: "ITT Veam",
     series: "CIR",
   },
   {
     id: 30,
     code: "T109",
-    definition: "Black zinc cobalt finish, T112 heavy golt plated contacts",
+    definition: "Black zinc cobalt finish, T112 heavy gold plated contacts",
     company: "ITT Veam",
     series: "CIR",
   },
@@ -226,7 +226,7 @@ const InitialList = [
     id: 31,
     code: "T113",
     definition:
-      "T89 Black hard coat anodized on machined parts, T68 Electrodeposited black epoxy urthand paint on casted, T112 heavy gold contacts",
+      "T89 Black hard coat anodized on machined parts, T68 Electrodeposited black epoxy urethane paint on casted, T112 heavy gold contacts",
     company: "ITT Veam",
     series: "CIR",
   },
@@ -459,14 +459,14 @@ const InitialList = [
   {
     id: 63,
     code: "03",
-    definition: "adaptor for shring boots, metric contacts",
+    definition: "adaptor for shrink boots, metric contacts",
     company: "ITT Cannon",
     series: "Cannon VG/CA Bayonet",
   },
   {
     id: 64,
     code: "04",
-    definition: "rear monnt, threat in flange, metric crimp contacts (CA3102)",
+    definition: "rear mount, threat in flange, metric crimp contacts (CA3102)",
     company: "ITT Cannon",
     series: "Cannon VG/CA Bayonet",
   },
@@ -499,13 +499,7 @@ const InitialList = [
     company: "ITT Cannon",
     series: "Cannon VG/CA Bayonet",
   },
-  {
-    id: 68,
-    code: "13",
-    definition: "shielded, solder contacts",
-    company: "ITT Cannon",
-    series: "Cannon VG/CA Bayonet",
-  },
+
   {
     id: 69,
     code: "13",
@@ -530,7 +524,7 @@ const InitialList = [
   {
     id: 72,
     code: "41",
-    definition: "shileded versino, heat shrink boot adaptor",
+    definition: "shielded version, heat shrink boot adaptor",
     company: "ITT Cannon",
     series: "Cannon VG/CA Bayonet",
   },
@@ -545,6 +539,13 @@ const InitialList = [
     id: 74,
     code: "111",
     definition: "Rear mount, solder contacts, threaded MTG holes",
+    company: "ITT Cannon",
+    series: "Cannon VG/CA Bayonet",
+  },
+  {
+    id: 75,
+    code: "13",
+    definition: "shielded, solder contacts",
     company: "ITT Cannon",
     series: "Cannon VG/CA Bayonet",
   },
